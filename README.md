@@ -1,7 +1,13 @@
 # aspectratiojs
-This script recalculate a div element height (or any element with block display) to behave like the img tag when resizing the tab horizontally thus keeping the width-height aspect ratio of the element.
+This script recalculate a div element height (or any element with block display) to behave like the img tag when resizing the tab horizontally, thus keeping the width-height aspect ratio of the element.
 
-## Example
+![Demo](/demo.gif)
+
+## Requirements
+
+- JQuery
+
+## Usage
 
 ```html
 <div class="aspectratio" data-ar-width="1200" data-ar-height="200"></div>
@@ -15,3 +21,7 @@ By setting the attribute `data-ar-full_width` to false, `data-ar-width` and `dat
 ```html
 <div class="aspectratio" data-ar-width="1200" data-ar-height="200" data-ar-full_width="false"></div>
 ```
+
+## Example 
+
+See the **index.html** file or the demo here: https://eissasoubhi.github.io/aspectratio.js/
